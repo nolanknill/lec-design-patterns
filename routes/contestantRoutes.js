@@ -19,7 +19,7 @@ router.get("/:contestantId", (req, res) => {
   const contestants = readContestants();
 
   // Find the single note whose id matches the requested id
-  const singleContestant = contestants.find((contestant) => contestant.id === req.params.contestantId);
+  const singleContestant = contestants.find((contestant) => contestant.id === Number(req.params.contestantId));
 
   res.json(singleContestant);
 });
