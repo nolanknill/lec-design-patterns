@@ -1,31 +1,11 @@
 const express = require("express");
 const router = express.Router();
-const fs = require("fs");
+const contestantController = require('../controllers/contestantController');
 
-function readContestants() {
-  const contestantsFile = fs.readFileSync("./data/contestants.json");
-  const contestantsData = JSON.parse(contestantsFile);
-  return contestantsData;
-}
-
-router.get("/", (_req, res) => {
-  const contestants = readContestants();
-
-  res.json(contestants);
-});
-
-router.get("/:contestantId", (req, res) => {
-  // Read the file
-  const contestants = readContestants();
-
-  // Find the single note whose id matches the requested id
-  const singleContestant = contestants.find((contestant) => contestant.id === Number(req.params.contestantId));
-
-  res.json(singleContestant);
-});
+router.get("/", contestantController.getContestants);
+router.get("/:contestantId", contestantController.getContestant);
 
 module.exports = router;
-
 
 /*
 
