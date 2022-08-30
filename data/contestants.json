@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Jaida Essence Hall",
+        "hometown": "Milwaukee, Wisconsin",
+        "country": "USA",
+        "age": 34,
+        "originalSeason": "Season 12",
+        "image": "/assets/images/jaida-essence-hall.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Shea Couleé",
+        "hometown": "Chicago, Illinois",
+        "country": "USA",
+        "age": 32,
+        "originalSeason": "Season 9",
+        "image": "/assets/images/shea-coulee.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "The Vivienne",
+        "hometown": "Liverpool",
+        "country": "UK",
+        "age": 29,
+        "originalSeason": "UK Series 1",
+        "image": "/assets/images/the-vivienne.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Monét X Change",
+        "hometown": "New York City, New York",
+        "country": "USA",
+        "age": 31,
+        "originalSeason": "Season 10",
+        "image": "/assets/images/monet-x-change.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Yvie Oddly",
+        "hometown": "Denver, Colorado",
+        "country": "USA",
+        "age": 28,
+        "originalSeason": "Season 11",
+        "image": "/assets/images/yvie-oddly.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Priyanka",
+        "hometown": "Toronto, Ontario",
+        "country": "Canada",
+        "age": 31,
+        "originalSeason": "Canada Season 1",
+        "image": "/assets/images/priyanka.jpeg"
+    }
+]
